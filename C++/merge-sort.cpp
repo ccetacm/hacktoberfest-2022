@@ -75,6 +75,7 @@ void printArray(int A[], int size)
 int main()
 {
     int arr[] = { 12, 11, 13, 5, 6, 7 };
+    // size = 6
     auto arr_size = sizeof(arr) / sizeof(arr[0]);
  
     cout << "Given array is \n";
